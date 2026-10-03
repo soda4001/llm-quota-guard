@@ -69,7 +69,7 @@ limit=100, estimate=30, concurrent calls=10
 
 ## Develop
 
-Requires Node ≥ 22.18 (runs the TypeScript sources directly).
+Developed and tested on Node 24 (CI uses Node 24). The TypeScript sources run directly through Node's built-in type stripping; `npm run build` emits plain JavaScript to `dist/`.
 
 ```bash
 npm install

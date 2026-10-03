@@ -11,7 +11,7 @@
     "url": "git+https://github.com/soda4001/llm-quota-guard.git"
   },
   "engines": {
-    "node": ">=22.18"
+    "node": ">=24"
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
