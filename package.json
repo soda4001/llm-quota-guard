@@ -1,0 +1,47 @@
+{
+  "name": "llm-quota-guard",
+  "version": "0.1.0",
+  "description": "Per-key token/cost quota for LLM calls using reserve → commit/release holds. In-process, zero runtime dependencies.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "author": "soda4001",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soda4001/llm-quota-guard.git"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test \"test/**/*.test.ts\"",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc -p tsconfig.build.json",
+    "example": "node examples/naive-vs-guard.ts"
+  },
+  "keywords": [
+    "llm",
+    "quota",
+    "token-budget",
+    "rate-limit",
+    "openai",
+    "anthropic"
+  ],
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2"
+  }
+}
