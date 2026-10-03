@@ -85,4 +85,6 @@ Version 0.1.0, not yet published to npm. License: MIT.
 
 This repository was written with AI assistance (Claude); behavior is specified by the tests in `test/`.
 
-<!-- TODO(before publish): add the waitlist URL and one sentence about the planned larger kit (shared stores, multi-rule limits, eval harness, handbook). Mark it as "planned", not available. -->
+## Beyond this library
+
+A larger LLM production kit is **in planning and not available yet**: shared stores, multi-rule limits, structured-output validation, regression evals and a handbook. Whether it gets built depends on demand. If it would be useful to you, the waitlist (with a short survey) is at https://soda4001.github.io/llm-production-kit/. No payment is taken there.
