@@ -83,7 +83,7 @@ npm run build     # dist/ with .js and .d.ts
 
 Version 0.1.0, not yet published to npm. License: MIT.
 
-This repository was written with AI assistance (Claude); behavior is specified by the tests in `test/`.
+This repository (code, tests and documentation) was written by an AI (Claude) under the direction of its owner. It was not written or edited by hand. Behavior is specified by the tests in `test/`.
 
 ## Beyond this library
 
